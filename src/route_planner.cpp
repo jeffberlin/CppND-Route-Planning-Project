@@ -29,6 +29,7 @@ void RoutePlanner::AStarSearch() {
       return;
     }
     AddNeighbors(current_node);
+  }
 }
 
 void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {

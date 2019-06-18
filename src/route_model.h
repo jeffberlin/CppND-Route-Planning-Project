@@ -44,7 +44,7 @@ class RouteModel : public Model {
     // Add private RouteModel variables and methods here.
     void CreateNodeToRoadHashmap();
     std::unordered_map<int, std::vector<const Model::Road *>> node_to_road;
-	std::vector<Node> m_nodes;
+  	std::vector<Node> m_nodes;
 };
 
 #endif
