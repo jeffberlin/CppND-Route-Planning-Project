@@ -63,7 +63,7 @@ int main(int argc, const char **argv)
   std:: cout << "Enter a start x between 0 and 100: ";
 	std::cin >> start_x;
 	std::cout << "Enter a start y between 0 and 100: ";
-	std::cin >> stary_y;
+	std::cin >> start_y;
 	std::cout << "Enter an end x between 0 and 100: ";
 	std::cin >> end_x;
 	std::cout << "Enter an end y between 0 and 100: ";
